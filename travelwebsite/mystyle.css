@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.section1{
+    background:url(img/1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.text__content{
+    font-size: 50px;
+    color: rgba(255,255, 255,0.8);
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    text-transform: uppercase;
+    display: flex;
+    letter-spacing: 3px;
+	justify-content: center;
+    align-items: center;
+}
+
+.link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgba(255,255, 255,0.9);
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.link:hover{
+    color: rgba(255,255, 255,1);
+}
+
+.section2{
+    height: 100vh;
+	 background: url(img/2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.section3{
+    height: 100vh;
+	 background: url(img/3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.section4{
+    height: 100vh;
+	 background: url(img/4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.content__box{
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text__box {
+    background-color: rgba(255,255, 255,0.8);
+    color: rgba(0,0,0,0.5);
+	width: 50%;
+	padding: 30px;
+}
+
+.heading{
+	font-size:40px;
+	font-weight:bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+
+.description{
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+  background: rgba(95,52,175,0.5);
+}
+   
+
+::-webkit-scrollbar-thumb {
+  background: rgba(95,52,175,1.0); 
+}
+  
+footer{
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgb(255,255, 255);
+    letter-spacing: 3px;
+}
+
