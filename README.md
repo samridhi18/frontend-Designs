@@ -1,6 +1,6 @@
 # frontend-Designs
 Cool Frontend UI
-some cold UI designs Recreated
+
 ![alt text](https://github.com/samridhi18/frontend-Designs/blob/master/screenshots/light-switch.png)
 ![alt text](https://github.com/samridhi18/frontend-Designs/blob/master/screenshots/login.png)
 ![alt text](https://github.com/samridhi18/frontend-Designs/blob/master/screenshots/rate.png)
